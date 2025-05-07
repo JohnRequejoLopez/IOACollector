@@ -1,0 +1,56 @@
+- name: GrandparentImageFilename
+  value: .*
+  label: Grandparent Image Filename
+  type: excludable
+  values:
+    - label: include
+      value: .*
+  final_value: .*
+- name: GrandparentCommandLine
+  value: .*
+  label: Grandparent Command Line
+  type: excludable
+  values:
+    - label: include
+      value: .*
+  final_value: .*
+- name: ParentImageFilename
+  value: .*
+  label: Parent Image Filename
+  type: excludable
+  values:
+    - label: include
+      value: .*
+  final_value: .*
+- name: ParentCommandLine
+  value: .*
+  label: Parent Command Line
+  type: excludable
+  values:
+    - label: include
+      value: .*
+  final_value: .*
+- name: ImageFilename
+  value: .*
+  label: Image Filename
+  type: excludable
+  values:
+    - label: include
+      value: .*
+  final_value: .*
+- name: CommandLine
+  value: .*
+  label: Command Line
+  type: excludable
+  values:
+    - label: include
+      value: .*
+  final_value: .*
+- name: DomainName
+  value: (?i){{ data }}
+  label: Domain Name
+  type: excludable
+  values:
+    - label: include
+      value: {{ data }} 
+  final_value: (?i){{ data }}

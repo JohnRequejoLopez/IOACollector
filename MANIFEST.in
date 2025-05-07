@@ -1,0 +1,6 @@
+include README.md
+include CHANGELOG.md
+global-include *.py
+global-include *.yml.j2
+recursive-include ioacollector/*.py
+recursive-include ioacollector/templates/*.yml.j2

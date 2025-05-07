@@ -1,0 +1,8 @@
+- name: RemoteIPAddress
+  value: '(?i){{ data }}'
+  label: Remote IP Address
+  type: excludable
+  values:
+    - label: include
+      value: {{ data }}
+  final_value: '(?i){{ data }}'
